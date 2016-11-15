@@ -2,8 +2,12 @@
   background-color: #afffe5;
   border: solid 1px black;
 }
-h1 {
+h1 #title {
   color: red;
   font-family: Tahoma;
   text-align: left;
+}
+#header-list {
+  text-align: right;
+  float: left;
 }
