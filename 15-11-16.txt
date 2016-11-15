@@ -1,0 +1,2 @@
+change script to head
+download jquery to domain instead of using google's
