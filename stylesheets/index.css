@@ -10,5 +10,6 @@
 }
 #header-list {
   text-align: right;
+  float: right;
   display: inline;
 }
