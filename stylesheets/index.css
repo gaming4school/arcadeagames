@@ -6,8 +6,9 @@
   color: red;
   font-family: Tahoma;
   text-align: left;
+  display: inline;
 }
 #header-list {
   text-align: right;
-  float: left;
+  display: inline;
 }
