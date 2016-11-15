@@ -7,16 +7,18 @@
   <body>
     <header>
       <h1 id="title">Arcadea Games</h1>
-      <p id="header-list"><a href="/members-area">Members' Area</a></p>
+      <div>
+        <p id="header-list"><a href="/members-area">Members' Area</a></p>
+      </div>
     </header>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
       $(document).ready(function() {
-        $('.header-list').mouseenter(function() {
+        $("div[id=header-list]").mouseenter(function() {
           $(this).animate({
             height: '+=10px'
           });
         });
-        $('.header-list').mouseleave(function() {
+        $("div[id=header-list]").mouseleave(function() {
           $(this).animate({
             height: '-=10px'
           }); 
