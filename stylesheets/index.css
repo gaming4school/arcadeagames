@@ -2,7 +2,7 @@
   background-color: #afffe5;
   border: solid 1px black;
 }
-h1 #title {
+#title {
   color: red;
   font-family: Tahoma;
   text-align: left;
