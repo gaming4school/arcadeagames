@@ -1,9 +1,8 @@
 * {
-  background-color: #afffe5;
   border: solid 1px black;
 }
-header {
-  ;
+body {
+  background-color: #afffe5;
 }
 #title {
   color: red;
