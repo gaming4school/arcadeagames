@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Arcadea Games</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/index.css">
+    <script src="/w3data.js"></script>
+  </head>
+  <body>
+    <div w3-include-html="/includes/header.html"></div>
+    <h1>About Us</h1>
+    <h3>How to find us:</h3>
+    <div id="map" style="width:400px;height:400px;background:yellow">My map will go here</div>
+    <script>
+      w3IncludeHTML();
+    </script>
+    <script>
+      function myMap() {
+        var mapCanvas = document.getElementById("map");
+        var myCenter = new google.maps.LatLng(34.736091, -31.673873);
+        var mapOptions = {center: myCenter, zoom: 5};
+        var map = new google.maps.Map(mapCanvas,mapOptions);
+        var marker = new google.maps.Marker({
+          position: myCenter,
+          animation: google.maps.Animation.BOUNCE
+        });
+        marker.setMap(map);
+        
+        var infowindow = new google.maps.InfoWindow({
+          content: "Somewhere on Earth"
+        });
+        infowindow.open(map,marker);
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+  </body>
+</html>
