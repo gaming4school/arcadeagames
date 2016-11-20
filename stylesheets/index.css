@@ -12,6 +12,6 @@ body {
   float: right;
   display: inline;
 }
-.scratch {
+#scratch {
   margin: 10px;
 }
