@@ -15,6 +15,6 @@ body {
 #scratch {
   margin: 10px;
 }
-#article-link1 {
- background-color: red; 
+#scratch-picture-link {
+ background-image: url("Scratch_logo.png"); 
 }
