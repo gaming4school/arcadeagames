@@ -18,3 +18,6 @@ body {
 #scratch-picture-link {
  background-image: url("Scratch_logo.png"); 
 }
+.inline {
+  display: inline;
+}
