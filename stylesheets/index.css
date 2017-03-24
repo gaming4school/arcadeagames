@@ -24,3 +24,11 @@ body {
 #myTopnav {
   box-shadow: 5px 5px 10px lightslategrey;
 }
+#volume-div {
+  box-shadow: 5px 5px 10px lightslategrey;
+  background-color: #24b2ff;
+  float: right;
+  width: 70px;
+  height: 120px;
+  margin-top: 5px;
+}
