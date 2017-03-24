@@ -7,6 +7,10 @@ ul.topnav {
     background-color: #24b2ff;
 }
 
+ul.topnav li(:first-child) {
+    font-weight: bold;
+}
+
 /* Float the list items side by side */
 ul.topnav li {float: left;}
 
