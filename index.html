@@ -4,15 +4,28 @@
     <title>Arcadea Games</title>
     <link rel="stylesheet" type="text/css" href="/stylesheets/index.css">
     <script src="/w3data.js"></script>
+    <script>
+      var audio = document.getElementById("audio");
+
+      function enableMute() { 
+        audio.muted = true;
+      } 
+
+      function disableMute() { 
+        audio.muted = false;
+      } 
+    </script>
   </head>
   <body>
     <div w3-include-html="/includes/header.html"></div>
     <script>
       w3IncludeHTML();
     </script>
-    <audio autoplay style="display: none;">
+    <audio autoplay style="display: none;" id="audio">
       <source src="Arcadea theme.m4a" type="audio/mp4">
       Your browser does not support the audio element.
     </audio>
+    <button onclick="enableMute()" type="button">Mute sound</button>
+    <button onclick="disableMute()" type="button">Enable sound</button>
   </body>
 </html>
