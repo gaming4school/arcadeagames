@@ -41,14 +41,6 @@ body {
   width: 70%;
   margin-left: 10px;
 }
-/* Chrome, Safari, Opera */
-@-webkit-keyframes clicked {
-  50% {box-shadow: inset 5px 5px 10px darkslategrey;}
-}
-/* Standard syntax */
-@keyframes clicked {
-  50% {box-shadow: inset 5px 5px 10px darkslategrey;}
-}
 #volume-div img:active {
-  -webkit-animation: clicked 1s; /* Chrome, Safari, Opera */
-  animation: clicked 1s;
+  box-shadow: inset 5px 5px 10px darkslategrey;
+}
