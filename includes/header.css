@@ -5,6 +5,7 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     background-color: #24b2ff;
+    border-radius: 10px;
 }
 
 ul.topnav li:first-child {
