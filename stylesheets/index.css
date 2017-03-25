@@ -15,8 +15,8 @@ body {
 #scratch {
   margin: 10px;
 }
-#scratch-picture-link {
- background-image: url("Scratch_logo.png"); 
+#picture-link {
+ margin-top: 5px;
 }
 .inline {
   display: inline;
