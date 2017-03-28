@@ -1,0 +1,12 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to Arcadea!</title>
+    <link rel="stylesheet" href="/stylesheets/index.css">
+    </head>
+    <body>
+    <h1> Our First Post! </h1> 
+    <t> Yay, we have lift off :p </t>
+    </body> 
+    </html>
