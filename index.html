@@ -31,7 +31,7 @@
         <li><a href="arcadeagames.github.io/posts/firstpost.html">First post on this site!</a></li>
       </ul>
     <t7> Website Status: </t7>
-      <style>
+<style>
 #myProgress {
   width: 100%;
   background-color: #ddd;
@@ -45,13 +45,13 @@
   line-height: 30px;
   color: white;
 }
-</style> 
+</style>
 <body>
 
-<h1>Web Status Bar</h1>
+<h1>Website Status</h1>
 
 <div id="myProgress">
-  <div id="myBar">0%</div>
+  <div id="myBar">10%</div>
 </div>
 
 <br>
@@ -63,7 +63,7 @@ function move() {
   var width = 10;
   var id = setInterval(frame, 10);
   function frame() {
-    if (width >= 100) {       
+    if (width >= 100) {
       clearInterval(id);
     } else {
       width++; 
@@ -71,14 +71,8 @@ function move() {
       elem.innerHTML = width * 1  + '%';
     }
   }
-}    
-    </div>
-    <script>
-      w3IncludeHTML();
-    </script>
-    <script>
-       document.getElementById('audio').play()
-    </script>
-  </body>
-  
+}
+</script>  
+ </body> 
+
 </html>
