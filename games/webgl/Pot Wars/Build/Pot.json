@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "Pot.data.unityweb",
+"asmCodeUrl": "Pot.asm.code.unityweb",
+"asmMemoryUrl": "Pot.asm.memory.unityweb",
+"asmFrameworkUrl": "Pot.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}
