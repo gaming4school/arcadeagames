@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "Ipad.data.unityweb",
+"asmCodeUrl": "Ipad.asm.code.unityweb",
+"asmMemoryUrl": "Ipad.asm.memory.unityweb",
+"asmFrameworkUrl": "Ipad.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}
