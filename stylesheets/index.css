@@ -1,6 +1,8 @@
 body {
   background-color: #afffe5;
   font-family: 'Ubuntu', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 #title {
   color: red;
