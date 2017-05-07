@@ -3,6 +3,3 @@ https://arcadeagames.github.io/games/
 https://arcadeagames.github.io/games/scratch/
 https://arcadeagames.github.io/about/
 https://arcadeagames.github.io/arcadeagames.github.io/posts/firstpost.html
-https://arcadeagames.github.io/arcadeagames.github.io/games/webgl/Pot%20Wars/
-https://arcadeagames.github.io/games/webgl/SpaceShooter/index.html
-https://arcadeagames.github.io/games/webgl/WebGL/index.html
