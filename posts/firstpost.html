@@ -10,15 +10,35 @@
     {
       "@context" : "http://schema.org",
       "@type" : "Article",
+      "mainEntityOfPage" : {
+      	"@type" : "WebPage",
+        "@id" : "https://arcadeagames.github.io/posts/firstpost.html"
+      },
       "name" : "Our First Post!",
       "author" : {
         "@type" : "Organization",
         "name" : "ArcadeaGames Admin"
       },
+      "publisher" : {
+      	"@type" : "Organization",
+        "name" : "ArcadeaGames Admin",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://arcadeagames.github.io/23454875.png"
+    	}
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://arcadeagames.github.io/23454875.png",
+        "height": 800,
+        "width": 800
+  	  },
+      "headline" : "Our First Post!",
       "datePublished" : "2017-03-29",
+      "dateModified" : "2017-05-07",
       "articleBody" : "We are up and running! Prepare for a big change when this website hits beta!"
     }
-</script>
+    </script>
   </head>
   <body>
     <div w3-include-html="/includes/header.html"></div>
