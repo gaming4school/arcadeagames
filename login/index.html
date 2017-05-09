@@ -75,7 +75,7 @@ span.psw {
     <label><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
         
-    <button type="submit"  onclick="uname()">Login</button>
+    <button type="submit"  onclick="check()">Login</button>
     <input type="checkbox" checked="checked"> Remember me
   </div>
 
@@ -83,14 +83,14 @@ span.psw {
     <button type="button" class="cancelbtn">Cancel</button>
     <span class="psw">Forgot <a href="#">password?</a></span>
   </div>
-<script>
-	function uname() {
-	if (document.getElementById("uname").value = "dferdo61") {
-    if (document.getElementById("psw").value = "Arcadea.Daniel" {
-    	window.location.assign("https://arcadeagames.github.io/admin")
-        }
+  <script>
+	function check() {
+		if (document.getElementById("uname").value = "dferdo61") {
+    			if (document.getElementById("psw").value = "Arcadea.Daniel") {
+				window.location.assign("https://arcadeagames.github.io/admin");
+        		}
+		}
 	}
-}
-	</script>
+  </script>
 </body>
 </html>
