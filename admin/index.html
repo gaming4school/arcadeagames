@@ -2,6 +2,11 @@
 <html>
 <head>
   <title>Arcadea Games | Admin</title>
+  <script>
+  if (!sessionStorage.username) {
+    window.location.assign("https://arcadeagames.github.io/login");
+  }
+}</script>
 <style>
 body {
   margin: 0;
