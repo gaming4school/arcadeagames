@@ -76,20 +76,28 @@ span.psw {
     <input id="psw" type="password" placeholder="Enter Password" name="psw" required>
         
     <button type="submit"  onclick="check()">Login</button>
-    <input type="checkbox" checked="checked"> Remember me
   </div>
 
-  <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
-  </div>
   <script>
 	function check() {
 		if (document.getElementById("uname").value == "dferdo61") {
     			if (document.getElementById("psw").value == "Arcadea.Daniel") {
 				window.location.assign("https://arcadeagames.github.io/admin");
-				document.cookie = "username=dferdo61;";
         		}
+		}
+		else if (document.getElementById("uname").value == "jmundr61") {
+    			if (document.getElementById("psw").value == "Arcadea.Josh") {
+				window.location.assign("https://arcadeagames.github.io/admin");
+        		}
+		}
+		else if (document.getElementById("uname").value == "wtaylo61") {
+    			if (document.getElementById("psw").value == "Arcadea.William") {
+				alert("This website has been hacked!");
+				window.location.assign("https://google.com");
+        		}
+		}
+		else {
+			alert("Wrong username or password!");
 		}
 	}
   </script>
