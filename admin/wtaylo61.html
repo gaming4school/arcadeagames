@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Arcadea Games | Admin | wtaylo61</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/index.css">
+    <script src="/w3data.js"></script>
+    <script>
+      if (!sessionStorage.wtaylo61) {
+        window.location.assign("https://arcadeagames.github.io/admin/login");
+      }
+    </script>
+  </head>
+  <body>
+    <marquee> Welcome wtaylo61!</marquee>
+    <div w3-include-html="/includes/header.html"></div>
+    <div>
+      <h1>CEO</h1>
+    </div>
+    <div w3-include-html="todo.html"></div>
+    <script>
+      w3IncludeHTML();
+    </script>
+  </body> 
+</html>
